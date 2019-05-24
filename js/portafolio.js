@@ -124,6 +124,6 @@ jQuery('div.projects').waypoint(function(){
 },{offset: '100%'});
 jQuery('div.skills').waypoint(function(){
     jQuery('div.skills').children('h1').addClass('fadeIn');
-    jQuery('.skills2').addClass('fadeInDown');
+    jQuery('.skills2').addClass('fadeInRight');
     jQuery('.skillsdiv').addClass('fadeInDown');
 },{offset: '100%'});
