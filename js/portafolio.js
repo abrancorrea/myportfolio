@@ -23,7 +23,7 @@ new Vue ({
                 title: 'Control Admin System for College',
                 description: `
                 As part, of my internships, i maded a project to keep control to multiple
-                behaviors that my College coordinacion needs. This necesidades includes
+                needs that my College coordinacion wants. This needs includes
                 control of asistence, upload notas, register students, send mails automatically,
                 and generate diferents documents about control. 
                 The project is actually working in the College intranet around the country.
@@ -120,12 +120,6 @@ jQuery('div.projects').waypoint(function(){
 },{offset: '100%'}); 
 jQuery('div.skills').waypoint(function(){
     jQuery('div.skills').children('h1').addClass('fadeIn');
-    jQuery('.skills2').addClass('fadeInRight');
-    jQuery('.skillsdiv').addClass('fadeInDown');
-},{offset: '100%'});
-
-jQuery('div.contact').waypoint(function(){
-    jQuery('div.contact').children('h1').addClass('fadeIn');
-    jQuery('.contact4').addClass('fadeInLeft');
-    jQuery('li').addClass('fadeInDown');
+    jQuery('.skills2').addClass('fadeInDown');
+    jQuery('.skillslogos').addClass('fadeInDown');
 },{offset: '100%'});
