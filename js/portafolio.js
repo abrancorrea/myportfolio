@@ -115,11 +115,16 @@ jQuery('div#fportfolio').click(function(){
 //Waypoint
 
 jQuery('div.projects').waypoint(function(){
-    jQuery('div.projects').children('h1').addClass('fadeIn');
+    jQuery('div.h1').children('h1').addClass('fadeIn');
     jQuery('div.project').addClass('animated delay-2s fadeInDown');
 },{offset: '100%'}); 
 jQuery('div.skills').waypoint(function(){
     jQuery('div.skills').children('h1').addClass('fadeIn');
     jQuery('.skills2').addClass('fadeInDown');
     jQuery('.skillslogos').addClass('fadeInDown');
+},{offset: '100%'});
+jQuery('div.contact').waypoint(function(){
+    jQuery('div.contact').children('h1').addClass('fadeIn');
+    jQuery('.contact4').addClass('fadeInDown');
+    jQuery('li').addClass('fadeInLeft');
 },{offset: '100%'});
